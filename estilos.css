@@ -1,0 +1,206 @@
+body {
+    background-color: #f8f1f1;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: white; 
+    text-align: center;
+    font-family: Lucida Calligraphy, sans-serif;
+    font-size: 60px;
+}
+
+h2 {
+    color: #a00000; 
+    text-align: center;
+    font-family: Lucida Calligraphy, sans-serif;
+    font-size: 45px;
+
+} 
+
+h3 {
+    color: #a00000; 
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+} 
+
+.parrafo {
+    font-size: 24px;
+    color: wheat; 
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+#inicio {
+    background-image: url('https://img.freepik.com/vector-gratis/notas-musicales-colores-sobre-fondo-oscuro_1017-32302.jpg');
+    background-size: cover; 
+    background-position: center; 
+    padding: 120px 20px; 
+    min-height: 400px; 
+    color: white; 
+    text-align: center;
+    opacity: 0.7;
+}
+
+.btn {
+    padding: 10px 15px;
+    background-color: #5e0000; 
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    font-size: 18px;
+}
+
+.btn:hover {
+    background-color: #5f0a0a; 
+}
+
+.segundaSeccion {
+    background-color: #f7e5e5; 
+    padding: 40px 20px;
+    margin-top: 20px;
+}
+
+form {
+    background-color: white;
+    border: 2px solid #a00000;
+    border-radius: 15px;
+    padding: 30px;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+form button {
+    padding: 12px 20px;
+    background-color: #5e0000; 
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    width: 100%;
+}
+
+.perfil-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin: 0 20px;
+}
+
+.perfil-info {
+    border: 2px solid #a00000; 
+    border-radius: 15px;
+    padding: 25px;
+    width: 100%;
+    max-width: 600px; 
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left; 
+}
+
+.perfil-info label {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 5px;
+    display: block; 
+}
+
+.perfil-info input {
+    width: 100%;
+    padding: 8px; 
+    margin-bottom: 15px; 
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.perfil-info button {
+    padding: 12px 20px;
+    background-color: #5e0000; 
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    width: 100%; 
+    cursor: pointer;
+}
+
+.perfil-info button:hover {
+    background-color: #5f0a0a;
+}
+
+.comunidad-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.usuario {
+    border: 2px solid #a00000; 
+    border-radius: 15px;
+    padding: 15px;
+    width: 30%;
+    background-color: white;
+    text-align: center;
+    overflow: hidden; 
+}
+
+.usuario:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.usuario img {
+    width: 100%; 
+    height: 200px; 
+    object-fit: cover; 
+}
+
+header {
+    background-color: #830202; 
+    color: white;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font-size: 20px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    background-color: #830202; 
+    color: white;
+    padding: 10px;
+}
+
